@@ -1,0 +1,21 @@
+# Python bytecode/cache
+__pycache__/
+*.pyc
+*.pyo
+
+# pytest
+.pytest_cache/
+
+# Your Redis clone's data files — these are runtime state, not source code
+dump.json
+test_dump.json
+
+# Virtual environments (if you use one)
+venv/
+env/
+.venv/
+
+# OS/editor junk
+.DS_Store
+*.swp
+.vscode/
